@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files - raw and staging (large generated files)
+data/raw/
+data/staging/
+
+# Keep warehouse directory but not the database (generated on run)
+data/warehouse/*.db
+data/warehouse/*.db-shm
+data/warehouse/*.db-wal
+
+# Pipeline manifest (generated on run)
+data/pipeline_manifest.json
+
+# Logs (generated on run)
+logs/*.log
+logs/alerts.log
+
+# Reports (generated on run)
+reports/daily/
+reports/weekly/
+reports/monthly/
+reports/*.md
+reports/dq/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Notebook script
+create_notebooks.py
+marketing-data-pipeline/
