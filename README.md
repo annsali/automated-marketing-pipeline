@@ -252,15 +252,7 @@ GROUP BY channel
 ORDER BY total_revenue DESC;
 ```
 
-## Connection to Portfolio
 
-This project serves as the **data infrastructure layer** that powers the entire portfolio:
-
-- **Project 1** (CDP Segmentation): Audience signals computed from the unified warehouse
-- **Project 2** (Experimentation): Clean metrics from this pipeline feed experiment analysis
-- **Project 3** (Attribution Dashboard): Reports and exports power the attribution dashboards
-
-The four projects form a complete marketing analytics stack demonstrating data engineering, experimentation, and attribution capabilities.
 
 ## License
 
